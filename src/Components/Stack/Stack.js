@@ -1,7 +1,7 @@
 import React from 'react';
 import './Stack.css'
 import FEnd from '../../IMG/app-development.png'
-import forest from '../../IMG/Boss.png'
+import forest from '../../IMG/Boss.jpg'
 import BENd from '../../IMG/coding.png'
 const style = {
     margin: "0",

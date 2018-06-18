@@ -3,7 +3,7 @@ import './SecondBanner.css'
 import Card from "../Card/Card";
 import Zoom from 'react-reveal'
 import Layout from "../Layout/Layout";
-import forest from '../../IMG/Boss.png'
+import forest from '../../IMG/Boss.jpg'
 const HeadBanner = (props) => {
     const style = {
         margin: "0",

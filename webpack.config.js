@@ -1,38 +1,44 @@
-const webpack = require('webpack');
+let webpack = require('webpack');
+let path = require('path');
 
-module.exports = {
+let BUILD_DIR = path.resolve(__dirname, 'src/client/public');
+let APP_DIR = path.resolve(__dirname, './src/');
 
-    entry: { main: './src/index.js' },
+let config = {
+    entry: APP_DIR + '/index.js',
 
+    output: {
+        path: BUILD_DIR,
+        filename: 'bundle.js'
+    },
     module: {
         rules: [
             {
-                test: /\.(js|jsx)$/,
-                exclude: /node_modules/,
-                use: ['babel-loader']
+                test: /\.js$/,
+                use: [
+                    {
+                        loader: 'babel-loader',
+                        options: {
+                            presets: ["es2015"]
+                        }
+                    }
+                ]
             },
             {
                 test: /\.css$/,
-                loader: 'css-loader',
-                query: {
-                    modules: true,
-                    localIdentName: '[name]__[local]___[hash:base64:5]'
-                }},
+                include: __dirname + "./src/css",
+                exclude: __dirname + "./src/js",
+                use: [
+                    'style-loader',
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            modules: true
+                        }
+                    }
+                ]
+            }
         ]
     },
-    resolve: {
-        extensions: ['*', '.js', '.jsx']
-    },
-    output: {
-        path: __dirname + '/dist',
-        publicPath: '/',
-        filename: 'bundle.js'
-    },
-    plugins: [
-        new webpack.HotModuleReplacementPlugin()
-    ],
-    devServer: {
-        contentBase: './dist',
-        hot: true
-    }
 };
+module.exports  = config;

@@ -1,0 +1,22 @@
+.CustomGithub{
+    padding: 15px 10px;
+    border:none!important;
+    border-radius:15px;
+    background-color: #a9a9a912;
+}
+
+.CustomGithubLogo{
+    width: 100%;
+    height: 150px;
+}
+
+
+.customAhref{
+    text-decoration: none;
+    color:inherit;
+}
+
+.customAhref:hover{
+    text-decoration: none;
+    color:inherit;
+}

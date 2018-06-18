@@ -1,0 +1,14 @@
+.customCard{
+    color:white;
+
+}
+.CCard{
+    border : none!important;
+    background: #21252908 !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 10px !important;
+}
+.NOM{
+    margin:0 !important;
+}

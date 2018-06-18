@@ -1,0 +1,38 @@
+.Stack{
+    margin-top : -160px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 15px;
+}
+
+.StackLogo{
+    width: auto;
+    height: 80px;
+}
+.StackCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.Section{
+    background: white;
+    padding: 20px 10px;
+}
+
+@media (max-width: 576px) {
+    .border-right{
+        border-right: none !important;
+    }
+    .Stack{
+        margin-top : -130px;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        border-radius: 15px;
+    }
+
+}
+@media (min-width: 576px) {
+    .border-top{
+        border-top: none !important;
+    }
+}

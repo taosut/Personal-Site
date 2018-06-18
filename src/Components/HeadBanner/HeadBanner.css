@@ -1,0 +1,57 @@
+.mainLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LogoFluid{
+    width: auto;
+    max-height: 130px;
+}
+.RobotoBOLD{
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    font-weight:bold;
+}
+.Roboto{
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.BannerIcon{
+    width: auto;
+    height: 30px;
+
+}
+.IconRow{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.displayBlock{
+    height: 142px;
+}
+@media (max-width: 576px) {
+    .displayBlock{
+        height: auto;
+    }
+}
+
+.IconRow {
+    display: flex;
+    font-size: 0;
+    flex-wrap:wrap;
+    margin:-10px 0 0 -10px;
+}
+.headerIcon {
+    display: inline-block;
+    margin:10px 0 0 10px;
+    flex-grow: 1;
+    height:50px;
+}
+
+
+.Header{
+    width:auto;
+    max-height: 40px;
+    margin : auto 6px;
+}

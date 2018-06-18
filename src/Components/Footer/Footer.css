@@ -1,0 +1,36 @@
+.Footer{
+    background: #108900;
+    color:white;
+    Padding:10px 15px;
+}
+
+.FooterLogo{
+    width: auto;
+    max-height: 100px;
+}
+
+.IconRow {
+    display: flex;
+    font-size: 0;
+    flex-wrap:wrap;
+    margin:-10px 0 0 -10px;
+}
+.icon {
+    display: inline-block;
+    margin:10px 0 0 10px;
+    flex-grow: 1;
+    height:50px;
+    width: calc(100% * (1/6) - 10px - 1px)
+}
+
+.FooterIcon{
+    width:auto;
+    max-height: 40px;
+    margin-left:2px;
+    margin-right:2px;
+}
+
+.Copyright{
+    width: auto;
+    max-height: 30px;
+}

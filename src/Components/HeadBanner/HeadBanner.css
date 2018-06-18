@@ -55,3 +55,11 @@
     max-height: 40px;
     margin : auto 6px;
 }
+@media (max-width: 576px) {
+
+    .Header{
+        width:auto;
+        max-height: 40px;
+        margin : auto auto;
+    }
+}

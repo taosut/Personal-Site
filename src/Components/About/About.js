@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css'
 import Layout from "../Layout/Layout";
-import Enes from "../../IMG/me.png"
+import Enes from "../../IMG/me.jpg"
 import Fade from "react-reveal"
 import Typist from 'react-typist'
 

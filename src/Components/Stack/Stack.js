@@ -1,8 +1,8 @@
 import React from 'react';
 import './Stack.css'
-import FEnd from '../../IMG/app-development.png'
+import FEnd from '../../IMG/app-development.jpg'
 import forest from '../../IMG/Boss.jpg'
-import BENd from '../../IMG/coding.png'
+import BENd from '../../IMG/coding.jpg'
 const style = {
     margin: "0",
     backgroundImage: `url(${forest})`,

@@ -30,8 +30,8 @@ const Stack = (props) => {
                         <h2 className="RobotoBOLD color-black mb-5">Front-end Developer</h2>
                         <p className="Roboto NOM">I love clean , simple , out</p>
                            <p className="Roboto NOM"> of the box designs ,</p>
-                           <p className="Roboto NOM"> Let my inspiration takes </p>
-                           <p className="Roboto NOM"> itself!</p>
+                           <p className="Roboto NOM">Let my inspiration flow!</p>
+
 
                         <h4 className="text-green RobotoBOLD my-5">Languages I Speak:</h4>
                         <p>HTML</p>
@@ -51,7 +51,7 @@ const Stack = (props) => {
                         <p className="Roboto NOM">I love using Laravel to</p>
                         <p className="Roboto NOM">code and produce clean</p>
                         <p className="Roboto NOM">and structured code</p>
-                        <p className="Roboto NOM">Bringing ideas to life!</p>
+                        <p className="Roboto NOM">Bringing my ideas to life!</p>
 
                         <h4 className="text-green RobotoBOLD my-4">Languages I Speak:</h4>
                         <p>PHP</p>

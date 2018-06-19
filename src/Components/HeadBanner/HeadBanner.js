@@ -39,7 +39,7 @@ const HeadBanner = (props) => {
                     <Typist.Delay ms={300} />
                     <div className="text-center"><h1 className="RobotoBOLD">My name is Enes Sagir</h1></div>
                     <Typist.Delay ms={100} />
-                    <div className="text-center"><p className="RobotoBOLD">im a web developer based in Rotterdam</p></div>
+                    <div className="text-center"><p className="RobotoBOLD">I'm a web developer based in Rotterdam.</p></div>
 
 
                 </Typist>

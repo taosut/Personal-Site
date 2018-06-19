@@ -1,5 +1,5 @@
 .Stack{
-    margin-top : -160px;
+    margin-top : -200px;
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
     border-radius: 15px;
@@ -24,7 +24,7 @@
         border-right: none !important;
     }
     .Stack{
-        margin-top : -130px;
+        margin-top : -120px;
         -webkit-border-radius: 9px;
         -moz-border-radius: 9px;
         border-radius: 15px;

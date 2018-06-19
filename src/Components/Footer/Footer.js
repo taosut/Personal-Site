@@ -1,14 +1,12 @@
 import React from 'react';
 import './Footer.css'
 import Logo from "../../IMG/Mlogo.png";
-import Facebook from '../../IMG/facebook.png'
-import Instagram from '../../IMG/Instagram.png'
-import Github from "../../IMG/Github.png"
-import LinkedIN from "../../IMG/linkedin-button.png"
-import Call from "../../IMG/phone.png"
-import Mail from "../../IMG/mail.png"
-import Copyright from '../../IMG/copyright.png'
-
+import Linkedin from 'react-icons/lib/fa/linkedin-square'
+import Github from 'react-icons/lib/fa/github'
+import Phone from 'react-icons/lib/fa/mobile'
+import Facebook from 'react-icons/lib/fa/facebook-square'
+import Instagram from 'react-icons/lib/fa/instagram'
+import Email from 'react-icons/lib/ti/mail'
 import Zoom from 'react-reveal'
 import Gegevens from '../../Components/Gegevens/Gegevens'
 const Footer = (props) => {
@@ -26,16 +24,16 @@ const Footer = (props) => {
                 <p className="NOM">better</p>
             </div>
                 <div className="IconRow mt-4">
-                    <a href={Gegevens.facebook.url}>   <div className="Icon"><img  className="FooterIcon" src={Facebook} alt="Facebook"/></div></a>
-                    <a href={Gegevens.instagram.url}> <div className="Icon"><img  className="FooterIcon" src={Instagram} alt="Instagram"/></div></a>
-                    <a href={Gegevens.Github.url}> <div className="Icon"><img  className="FooterIcon" src={Github} alt="Github"/></div></a>
-                    <a href={Gegevens.linkedin.url}> <div className="Icon"><img  className="FooterIcon" src={LinkedIN} alt="Linkedin"/></div></a>
-                    <a href={"tel:"+Gegevens.phone}> <div className="Icon"><img  className="FooterIcon" src={Call} alt="Phone"/></div></a>
-                    <a href={"mailto:" + Gegevens.email}> <div className="Icon"><img  className="FooterIcon" src={Mail} alt="Mail"/></div></a>
+                    <a href={Gegevens.facebook.url}>   <div className="Icon"><Facebook color="white" size={35}/></div></a>
+                    <a href={Gegevens.instagram.url}> <div className="Icon"><Instagram color="white" size={35}/></div></a>
+                    <a href={Gegevens.Github.url}> <div className="Icon FooterIcon"><Github color="white" size={35}/></div></a>
+                    <a href={Gegevens.linkedin.url}> <div className="Icon FooterIcon"><Linkedin  color="white" size={35}/></div></a>
+                    <a href={"tel:"+Gegevens.phone}> <div className="Icon FooterIcon"><Phone  color="white" size={35}/></div></a>
+                    <a href={"mailto:" + Gegevens.email}> <div className="Icon FooterIcon"><Email  color="white" size={35}/> </div></a>
 
                 </div>
                 <div className="text-center justify-content mt-5">
-                    <p> created by <img className="Copyright" src={Copyright} alt="Copyright Enes Sagir"/> Enes Sagir</p>
+                    <p> created by Copyrightclass Enes Sagir</p>
                 </div>
              </Zoom>
          </div>

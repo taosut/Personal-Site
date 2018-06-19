@@ -3,10 +3,10 @@ import Fade from 'react-reveal';
 import Typist from 'react-typist'
 import Banner from "../../IMG/SiteBanner.jpg";
 import Logo from "../../IMG/Mlogo.png";
-import LinkedinL from '../../IMG/linkedin-button.png';
-import GithubL from '../../IMG/Github.png'
-import PhoneL from '../../IMG/phone.png'
-import EmailL from '../../IMG/mail.png'
+import Linkedin from 'react-icons/lib/fa/linkedin-square'
+import Github from 'react-icons/lib/fa/github'
+import Phone from 'react-icons/lib/fa/mobile'
+import Email from 'react-icons/lib/ti/mail'
 import Gegevens from '../../Components/Gegevens/Gegevens'
 import "./HeadBanner.css";
 
@@ -45,10 +45,10 @@ const HeadBanner = (props) => {
                 </Typist>
                 <Fade>
                     <div className="text-center justify-content">
-                        <a href={Gegevens.linkedin.url}><div className="headerIcon"><img  className="Header" src={LinkedinL} alt="Facebook"/></div></a>
-                        <a href={Gegevens.Github.url}> <div className="headerIcon"><img  className="Header" src={GithubL} alt="Github"/></div></a>
-                        <a href={"tel:" + Gegevens.phone}> <div className="headerIcon"><img  className="Header" src={PhoneL} alt="Phone"/></div></a>
-                        <a href={"mailto:" + Gegevens.email}> <div className="headerIcon"><img  className="Header" src={EmailL} alt="Email"/></div></a>
+                        <a href={Gegevens.linkedin.url}><div className="headerIcon"><div className="Header"><Linkedin color="white" size={40}/></div></div></a>
+                        <a href={Gegevens.Github.url}> <div className="headerIcon"><div className="Header"><Github color="white" size={40}/> </div></div></a>
+                        <a href={"tel:" + Gegevens.phone}> <div className="headerIcon"><div className="Header"><Phone color="white" size={40}/></div></div></a>
+                        <a href={"mailto:" + Gegevens.email}> <div className="headerIcon"><div className="Header"><Email color="white" size={40}/></div></div></a>
 
                     </div>
 

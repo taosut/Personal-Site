@@ -7,6 +7,7 @@ import Phone from 'react-icons/lib/fa/mobile'
 import Facebook from 'react-icons/lib/fa/facebook-square'
 import Instagram from 'react-icons/lib/fa/instagram'
 import Email from 'react-icons/lib/ti/mail'
+import Copyright from 'react-icons/lib/fa/copyright'
 import Zoom from 'react-reveal'
 import Gegevens from '../../Components/Gegevens/Gegevens'
 const Footer = (props) => {
@@ -33,7 +34,7 @@ const Footer = (props) => {
 
                 </div>
                 <div className="text-center justify-content mt-5">
-                    <p> created by Copyrightclass Enes Sagir</p>
+                    <p> created by <Copyright color="white" size={30}/> Enes Sagir</p>
                 </div>
              </Zoom>
          </div>

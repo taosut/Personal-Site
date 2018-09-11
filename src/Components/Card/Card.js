@@ -10,12 +10,12 @@ const Card = (props) => {
         width:"auto"
     };
     return (
-        <div className="container">
+        <div className="container-fluid">
         <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-6 col-12 mx-lg-auto mx-md-auto mb-5  offset-md-3">
-                <div className="card CCard" style={style}>
+            <div className="col-lg-3 col-md-3 col-sm-3 col-12 mb-5 my-auto mx-auto">
+                <div className="card CCard shadow" style={style}>
                     <img className="card-img customCard " src={Design} alt="Design"/>
-                    <div className="card-body">
+                    <div className="card-body ">
                         <h5 className="card-title text-green text-center RobotoBOLD">Custom Design</h5>
                         <p className="card-text text-center RobotoBOLD NOM">Building</p>
                         <p className="card-text text-center RobotoBOLD NOM" >Beautifull Responsive</p>
@@ -23,10 +23,10 @@ const Card = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 col-12 mx-lg-auto mx-md-auto mb-5  offset-md-3">
-                <div className="card CCard" style={style}>
+            <div className="col-lg-3 col-md-3 col-sm-3 col-12 mb-5 my-auto mx-auto">
+                <div className="card CCard shadow" style={style}>
                     <img className="card-img customCard " src={Laravel} alt="Design"/>
-                    <div className="card-body">
+                    <div className="card-body ">
                         <h5 className="card-title text-green text-center RobotoBOLD">Custom Applications</h5>
                         <p className="card-text text-center RobotoBOLD NOM">Building</p>
                         <p className="card-text text-center RobotoBOLD NOM" >Secure Custom</p>
@@ -34,10 +34,10 @@ const Card = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 col-12 mx-lg-auto mx-md-auto mb-5  offset-md-3">
-                <div className="card CCard" style={style}>
+            <div className="col-lg-3 col-md-3 col-sm-3 col-12 mb-5 my-auto mx-auto">
+                <div className="card CCard shadow" style={style}>
                     <img className="card-img customCard " src={ReactLogo} alt="Design"/>
-                    <div className="card-body">
+                    <div className="card-body ">
                         <h5 className="card-title text-green text-center RobotoBOLD">Custom UI</h5>
                         <p className="card-text text-center RobotoBOLD NOM">Building</p>
                         <p className="card-text text-center RobotoBOLD NOM" >Beautifull Responsive</p>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal';
 import Typist from 'react-typist'
-import Banner from "../../IMG/SiteBanner.jpg";
 import Logo from "../../IMG/Mlogo.png";
 import Linkedin from 'react-icons/lib/fa/linkedin-square'
 import Github from 'react-icons/lib/fa/github'
@@ -15,7 +14,7 @@ const HeadBanner = (props) => {
 
     const style = {
         margin: "0",
-        backgroundImage: `url(${Banner})`,
+       backgroundColor:"green",
         backgroundPositionY: "center",
         backgroundPositionX: "center",
         backgroundRepeat: 'no-repeat',
@@ -27,12 +26,16 @@ const HeadBanner = (props) => {
 
     };
     return (
-        <div style={style} className="jumbotron">
+
+        <div style={style} className="jumbotron Gradients">
+
+
             <Fade>
             <div className="container text-white">
 
                 <div className="mainLogo">
                     <img className="LogoFluid mb-3" src={Logo} alt=""/>
+
                 </div>
                 <Typist className="displayBlock" cursor={{show: false}} avgTypingSpeed={15000}>
                     <div className="text-center"><h2 className="RobotoBOLD">Welcome</h2></div>

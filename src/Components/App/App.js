@@ -6,6 +6,7 @@ import SecondBanner from "../SecondBanner/SecondBanner";
 import Stack from "../Stack/Stack";
 import Portfolio from "../Portfolio/Portfolio";
 import Footer from "../Footer/Footer"
+import Particles from "react-particles-js";
 
 class App extends Component {
 
@@ -13,7 +14,10 @@ class App extends Component {
 
         return (
             <div>
+                <Particles className='Particles'/>
+
                 <HeadBanner/>
+
                 <SecondBanner/>
                 <About/>
                 <Stack/>

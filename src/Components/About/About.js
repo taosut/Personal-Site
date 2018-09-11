@@ -7,7 +7,7 @@ import Fade from "react-reveal"
 const About = () => {
 
     return (
-        <div className="About">
+        <div className="About Gradients">
             <Layout>
                 <Fade>
                     <div className="CenterAbout">

@@ -3,12 +3,10 @@ import './SecondBanner.css'
 import Card from "../Card/Card";
 import Zoom from 'react-reveal'
 import Layout from "../Layout/Layout";
-import forest from '../../IMG/Boss.jpg'
 const HeadBanner = (props) => {
     const style = {
         margin: "0",
-        backgroundImage: `url(${forest})`,
-        backgroundColor: 'transparent',
+        backgroundColor: 'white',
         backgroundPositionY: "center",
         backgroundPositionX: "center",
         backgroundRepeat: 'no-repeat',

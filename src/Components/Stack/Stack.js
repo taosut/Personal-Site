@@ -1,12 +1,12 @@
 import React from 'react';
 import './Stack.css'
-import forest from '../../IMG/Boss.jpg'
 import Code from 'react-icons/lib/fa/code'
 import Pen from 'react-icons/lib/fa/pencil'
+import Zoom from 'react-reveal';
+
 const style = {
     margin: "0",
-    backgroundImage: `url(${forest})`,
-    backgroundColor: 'transparent',
+    backgroundColor: 'white',
     backgroundPositionY: "center",
     backgroundPositionX: "center",
     backgroundRepeat: 'no-repeat',
@@ -27,10 +27,9 @@ const Stack = (props) => {
                         <div className="col-12 col-md-6 col-sm-6 col-lg-6 border-right">
                             <div className="text-center justify-content">
                                 <div className="StackLogo mx-auto my-5"><Pen color="green" size={90}/></div>
+                                <Zoom>
                                 <h2 className="RobotoBOLD color-black mb-5">Front-end Developer</h2>
-                                <p className="Roboto NOM">I love clean , simple , out</p>
-                                <p className="Roboto NOM"> of the box designs ,</p>
-                                <p className="Roboto NOM">Let my inspiration flow!</p>
+
 
 
                                 <h4 className="text-green RobotoBOLD my-5">Languages I Speak:</h4>
@@ -38,31 +37,32 @@ const Stack = (props) => {
                                 <p>CSS</p>
                                 <p>Javascript</p>
                                 <h4 className="text-green RobotoBOLD my-5">Frameworks / Libraries:</h4>
+                                <p>ReactJS</p>
+                                <p>Redux</p>
+                                <p>Bootstrap</p>
                                 <p>SASS</p>
                                 <p>Jquery</p>
-                                <p>ReactJS</p>
-                                <p>Bootstrap</p>
+                                </Zoom>
                             </div>
                         </div>
                         <div className="col-12 col-md-6 col-sm-6 col-lg-6 border-top">
                             <div className="text-center justify-content">
                                 <div className="StackLogo mx-auto my-5"><Code color="green" size={90}/></div>
+                                <Zoom>
                                 <h2 className="RobotoBOLD color-black mb-5">Back-end Developer</h2>
-                                <p className="Roboto NOM">I love using Laravel to</p>
-                                <p className="Roboto NOM">code and produce clean</p>
-                                <p className="Roboto NOM">and structured code</p>
-                                <p className="Roboto NOM">Bringing my ideas to life!</p>
 
                                 <h4 className="text-green RobotoBOLD my-4">Languages I Speak:</h4>
                                 <p>PHP</p>
-
+                                <p>NodeJS</p>
                                 <h4 className="text-green RobotoBOLD mt-5 mb-4">Frameworks / Libraries:</h4>
                                 <p>Laravel</p>
+                                <p>ExpressJS</p>
                                 <h4 className="text-green RobotoBOLD my-5">Dev Tools:</h4>
                                 <p>Github</p>
                                 <p>BitBucket</p>
                                 <p>NPM</p>
                                 <p>Composer</p>
+                                </Zoom>
                             </div>
                         </div>
                     </div>

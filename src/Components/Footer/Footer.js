@@ -13,7 +13,7 @@ import Gegevens from '../../Components/Gegevens/Gegevens'
 const Footer = (props) => {
 
     return (
-     <div className="Footer">
+     <div className="Footer Gradients">
          <div className="container mt-5">
              <Zoom>
             <div className="text-center justify-content">

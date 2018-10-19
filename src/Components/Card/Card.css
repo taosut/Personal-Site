@@ -12,3 +12,9 @@
 .NOM{
     margin:0 !important;
 }
+.card-icon{
+    background: white;
+    height: auto;
+    width: 100%;
+
+}

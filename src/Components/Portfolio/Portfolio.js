@@ -56,8 +56,8 @@ export default class Portfolio extends React.Component {
 
                 )}
             </div>
-                <Pagination className={'paginationCenter'} pageSize={6} onChange={this.OnChange} current={this.state.current} total={this.state.total} />
-                <div className=" text-center justify-content">
+                    <Pagination className={'paginationCenter'} pageSize={6} onChange={this.OnChange} current={this.state.currentPage} total={this.state.total}/>
+                  <div className=" text-center justify-content">
                 <button className="btn btn-Custom mb-2"><a className="customAhref" href="https://github.com/EnesOG?tab=repositories">See more on github</a></button>
                 </div>
 

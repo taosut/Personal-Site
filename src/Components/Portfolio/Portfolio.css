@@ -26,3 +26,8 @@
     justify-content: center !important;
 
 }
+
+.rc-pagination-item-active {
+    background-color: #56ab2f !important;
+    border-color: #4a9429;
+}

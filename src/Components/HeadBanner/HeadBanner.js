@@ -39,9 +39,9 @@ const HeadBanner = (props) => {
                 </div>
                 <Typist key={'1'} className="displayBlock" cursor={{show: false}} avgTypingSpeed={15000}>
                     <div className="text-center"><h2 className="RobotoBOLD">Welcome</h2></div>
-                    <Typist.Delay ms={300} key={2} />
+                    <Typist.Delay ms={300} />
                     <div className="text-center"><h1 className="RobotoBOLD">My name is Enes Sagir</h1></div>
-                    <Typist.Delay ms={100} key={3} />
+                    <Typist.Delay ms={100} />
                     <div className="text-center"><p className="RobotoBOLD">I'm a web developer based in Rotterdam.</p></div>
 
 

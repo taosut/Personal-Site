@@ -17,3 +17,12 @@
     background-color: #108900;
     border-color: black;
 }
+
+.paginationCenter{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center !important;
+
+}

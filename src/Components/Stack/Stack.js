@@ -26,7 +26,7 @@ const Stack = (props) => {
 
                         <div className="col-12 col-md-6 col-sm-6 col-lg-6 border-right">
                             <div className="text-center justify-content">
-                                <div className="StackLogo mx-auto my-5"><Pen color="green" size={90}/></div>
+                                <div className="StackLogo mx-auto my-5"><Pen color="#3a7dd5" size={90}/></div>
                                 <Zoom>
                                 <h2 className="RobotoBOLD color-black mb-5">Front-end Developer</h2>
 
@@ -47,7 +47,7 @@ const Stack = (props) => {
                         </div>
                         <div className="col-12 col-md-6 col-sm-6 col-lg-6 border-top">
                             <div className="text-center justify-content">
-                                <div className="StackLogo mx-auto my-5"><Code color="green" size={90}/></div>
+                                <div className="StackLogo mx-auto my-5"><Code color="#3a7dd5" size={90}/></div>
                                 <Zoom>
                                 <h2 className="RobotoBOLD color-black mb-5">Back-end Developer</h2>
 

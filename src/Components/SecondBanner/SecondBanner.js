@@ -1,7 +1,6 @@
 import React from 'react';
 import './SecondBanner.css'
 import Card from "../Card/Card";
-import Zoom from 'react-reveal'
 import Layout from "../Layout/Layout";
 const HeadBanner = (props) => {
     const style = {
@@ -19,12 +18,11 @@ const HeadBanner = (props) => {
     };
     return (
         <div style={style} className="jumbotron CustomJUmbo">
-
-            <h5 className="RobotoBOLD text-center text-green mb-5">Freelance Web Designer & Developing Custom Websites</h5>
+            <h4 className="RobotoBOLD text-center text-green mb-5">Full-Stack Web Developer</h4>
             <Layout>
-                <Zoom>
+
             <Card/>
-                </Zoom>
+
          </Layout>
         </div>
 

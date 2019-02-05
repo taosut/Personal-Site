@@ -1,6 +1,8 @@
 .customCard{
     color:white;
-
+    margin: auto;
+    max-width: 200px;
+    padding-top: 10px;
 }
 .CCard{
     border : none!important;
@@ -17,4 +19,15 @@
     height: auto;
     width: 100%;
 
+}
+
+.customCardWidth{
+    max-width: 150px;
+}
+
+.svg-logo{
+    margin: 15px auto 15px auto;
+    background: #d2d2d2;
+    border-radius: 60px;
+    padding: 20px;
 }

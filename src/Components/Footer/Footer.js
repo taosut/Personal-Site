@@ -4,8 +4,6 @@ import Logo from "../../IMG/Mlogo.png";
 import Linkedin from 'react-icons/lib/fa/linkedin-square'
 import Github from 'react-icons/lib/fa/github'
 import Phone from 'react-icons/lib/fa/mobile'
-import Facebook from 'react-icons/lib/fa/facebook-square'
-import Instagram from 'react-icons/lib/fa/instagram'
 import Email from 'react-icons/lib/ti/mail'
 import Copyright from 'react-icons/lib/fa/copyright'
 import Zoom from 'react-reveal'
@@ -25,10 +23,8 @@ const Footer = (props) => {
                 <p className="NOM">better</p>
             </div>
                 <div className="IconRow mt-4">
-                    <a href={Gegevens.facebook.url}>   <div className="Icon"><Facebook color="white" size={35}/></div></a>
-                    <a href={Gegevens.instagram.url}> <div className="Icon"><Instagram color="white" size={35}/></div></a>
-                    <a href={Gegevens.Github.url}> <div className="Icon FooterIcon"><Github color="white" size={35}/></div></a>
                     <a href={Gegevens.linkedin.url}> <div className="Icon FooterIcon"><Linkedin  color="white" size={35}/></div></a>
+                    <a href={Gegevens.Github.url}> <div className="Icon FooterIcon"><Github color="white" size={35}/></div></a>
                     <a href={"tel:"+Gegevens.phone}> <div className="Icon FooterIcon"><Phone  color="white" size={35}/></div></a>
                     <a href={"mailto:" + Gegevens.email}> <div className="Icon FooterIcon"><Email  color="white" size={35}/> </div></a>
 

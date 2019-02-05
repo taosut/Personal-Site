@@ -3,11 +3,6 @@
     min-height: 500px;
 }
 
-.AboutIMG{
-    width: auto;
-    height: 150px;
-    border-radius: 100px;
-}
 .CenterAbout{
     display: flex;
     align-items: center;

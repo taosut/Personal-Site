@@ -5,12 +5,12 @@
 .btn-Custom{
     color: black !important;
     background-color: #ffffff;
-    border-color: #108900;
+    border-color: #3a7dd5;
 }
 .btn-Custom:hover{
     color: white !important;
-    background-color: #108900;
-    border-color: black;
+    background-color: #3a7dd5;
+    border-color: #244f86
 }
 .btn-Custom:active{
     color: white !important;
@@ -28,6 +28,7 @@
 }
 
 .rc-pagination-item-active {
-    background-color: #56ab2f !important;
+    background-color: #4497ff !important;
     border-color: #4a9429;
+    color: white;
 }

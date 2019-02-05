@@ -9,11 +9,14 @@
 }
 .RobotoBOLD{
     display: block;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'RobotoSlabBold';
     font-weight:bold;
 }
 .Roboto{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'RobotoSlabLight';
+
+}
+@font-face {
 
 }
 
@@ -65,9 +68,9 @@
 }
 
 .Gradients{
-    background: #56ab2f; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #56ab2f, #108900); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #56ab2f, #108900); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2f64ab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2f64ab, #008689); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2f64ab, #008689); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .Particles{
 

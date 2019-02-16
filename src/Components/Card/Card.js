@@ -15,7 +15,7 @@ const Card = (props) => {
         <div className="container-fluid ">
             <div className="row mt-5">
                 <Fade left>
-                <div className="col-lg-3 col-md-3 col-sm-3 col-12 mb-5 my-auto mx-auto mt-5">
+                <div className="col-lg-3 col-md-4 col-sm-12 col-12 mb-5 my-auto mx-auto mt-5">
                     <div className="card CCard shadow" style={style}>
                         <div className="svg-logo">
                             <Design color="white" size={80}/>
@@ -27,7 +27,7 @@ const Card = (props) => {
                 </div>
                 </Fade>
                 <Fade up>
-                <div className="col-lg-3 col-md-3 col-sm-3 col-12 mb-5 my-auto mx-auto mt-5">
+                <div className="col-lg-3 col-md-4 col-sm-12 col-12 mb-5 my-auto mx-auto mt-5">
                     <div className="card CCard shadow" style={style}>
                         <div className="svg-logo">
                             <Develop color="white" size={80}/>
@@ -40,13 +40,13 @@ const Card = (props) => {
                 </div>
                 </Fade>
                 <Fade right>
-                <div className="col-lg-3 col-md-3 col-sm-3 col-12 mb-5 my-auto mx-auto mt-5">
+                <div className="col-lg-3 col-md-4 col-sm-12 col-12 mb-5 my-auto mx-auto mt-5">
                     <div className="card CCard shadow" style={style}>
                         <div className="svg-logo">
                             <Maintain color="white" size={80}/>
                         </div>
                         <div className="card-body ">
-                            <h4 className="card-title text-green text-center RobotoBOLD">3. Maintain</h4>
+                            <h4 className="card-title text-green text-center RobotoBOLD">4. Maintain</h4>
 
                         </div>
                     </div>

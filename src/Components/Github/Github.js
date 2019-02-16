@@ -1,6 +1,5 @@
 import React from 'react';
 import './Github.css'
-import Logo from "../../IMG/Git.svg";
 const Github = (props) => {
     const style = {
         width:"auto"
@@ -8,7 +7,6 @@ const Github = (props) => {
     return (
         <a className="customAhref" href={props.link}>
         <div className="card CustomGithub shadow" style={style}>
-            <img className="card-img customCard customCardWidth" src={Logo} alt="Design"/>
             <div className="card-body">
                 <h5 className="card-title text-center RobotoBOLD">{props.name}</h5>
             </div>

@@ -1,0 +1,69 @@
+.Project{
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+
+}
+.Project .Project__overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 2rem 2rem;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.Project:hover .Project__overlay,
+.Project.active .Project__overlay {
+    opacity: 1;
+}
+.Project h3 {
+    text-align: center;
+    background: black;
+
+}
+.Project__stacks{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.Project__stack{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-basis: content;
+    background: black;
+    margin: 0.5rem;
+    padding: .5rem 1rem;
+}
+
+.Project__buttons{
+    position: relative;
+    display: flex;
+}
+.Project__buttons a{
+    color: white;
+    text-decoration: none;
+}
+.Project__overlay-text{
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+}
